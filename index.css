@@ -1,0 +1,280 @@
+:root{
+	font-size: 16px;
+}
+
+.banner .card {
+	background-image: url(bannner.jpg);
+    border: 1px solid #2c2c2c;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px 2px tomato;
+}
+
+.banner .card .heading {
+    color: #f8f8f8;
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1vh;
+    padding: 5vw;
+    text-align: center;
+}
+
+.banner .card .sub-heading {
+    color: #d7f229;
+    font-family: "Playfair Display", serif;
+    font-size: 1.3rem;
+    margin-top: 0.9rem;
+    padding: 0 5vw 2vw;
+    text-align: center;
+}
+
+.banner .card .sub-heading a {
+    background: none;
+    border: none;
+    border-radius: 5px;
+    color: #35eea4;
+    font-family: "Istok Web", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    margin-top: 0.3rem;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: box-shadow 0.3s linear 0.1s;
+}
+
+.banner .card .sub-heading a:hover {
+    cursor: pointer;
+    box-shadow: 0 3px 20px 0 #35eea4;
+}
+
+.footer{
+    background: #1B1B1B;
+    height: 30vh;
+}
+
+.icon-group {
+    margin-top: 2vh;
+}
+
+.icon-group .icon {
+    margin-right: 10px;
+    width: 35px;
+}
+
+.margin-top-project{
+    margin-top: 1rem;
+}
+
+.skills-margin-bootstrap{
+    margin-top: 3.5rem;
+}
+
+.skills-margin-github{
+    margin-top: 1.5rem;
+}
+
+.skills-margin-express{
+    margin-top: 9rem;
+}
+
+.skills-margin-mongo{
+    margin-top: 8rem;
+}
+
+.skills-margin-rest{
+    margin-top: 2rem;
+}
+
+.pr-margin-rest{
+    margin-top: 2rem;
+}
+
+.profile-info-font{
+    font-size: 2rem;
+}
+
+.profile-info-margin{
+    margin-top: 3rem;
+}
+
+.display-pic-margin{
+    margin-top: 0rem;
+}
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 93vw;
+ 
+}
+
+table tr {
+  /*background-color: #f8f8f8;*/
+  border: 1px solid #ddd;
+  
+}
+
+
+table td {
+  padding-top: .625em;
+  padding-bottom: .625em;
+  text-align: center;
+  font-size: 1rem;
+}
+
+table th {
+  font-size: 1.5rem;
+  /*letter-spacing: .1em;*/
+  text-transform: uppercase;
+  padding-top: .625em;
+  padding-bottom: .625em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1200px){
+    .display-pic-margin{
+        margin-top: 1rem;
+    }
+    .profile-info-font{
+        font-size: 1.8rem;
+    }
+
+}
+
+@media only screen and (max-width: 992px){
+    .profile-info-margin{
+        margin-top: 1rem;
+    }
+    .display-pic-margin{
+        margin-top: 1rem;
+    }
+    .profile-info-font{
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .profile-info-margin{
+        margin-top: 1rem;
+    }
+    .display-pic-margin{
+        margin-top: 2rem;
+    }
+    .profile-info-font{
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .skills-margin-express{
+        margin-top: 2rem;
+    }
+
+    .skills-margin-mongo{
+        margin-top: 2rem;
+    }
+    .skills-margin-github{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 641px) {
+    table {
+        border: 0;
+    }
+    table td{
+        padding-top: .325em;
+        padding-bottom: .325em;
+        font-size: .50em;
+    }
+    table th{
+        padding-top: .325em;
+        padding-bottom: .325em;
+        font-size: .55em;
+    }
+    h1{
+        font-size: 2rem;
+    }
+
+    .banner .card .heading {
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .profile-info-margin{
+        margin-top: 2rem;
+    }
+    .display-pic-margin{
+        margin-top: 0rem;
+    }
+    .profile-info-font{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    table {
+        border: 0;
+    }
+    table td{
+        padding-top: .100em;
+        padding-bottom: .100em;
+        font-size: .30em;
+    }
+    table th{
+        padding-top: .100em;
+        padding-bottom: .100em;
+        font-size: .35em;
+    }
+    h1{
+        font-size: 1.5rem;    
+    }
+
+    .banner .card .heading {
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .banner .card .sub-heading a {
+        font-size: 0.8rem;
+    }
+    .profile-info-font{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 317px){
+    table {
+        border: 0;
+    }
+    table td{
+        padding-top: 0em;
+        padding-bottom: 0em;
+        font-size: .20em;
+    }
+    table th{
+        padding-top: 0em;
+        padding-bottom: 0em;
+        font-size: .25em;
+    }
+}
+
+@media only screen and (max-height: 672px){
+    .footer{
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-height: 453px){
+    .footer{
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-height: 355px){
+    .footer{
+        height: 80vh;
+    }
+}
